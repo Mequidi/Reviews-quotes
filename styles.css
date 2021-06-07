@@ -80,3 +80,23 @@ p{
     margin-top:2px;
     margin-bottom: 5px;
 }
+.review-text{
+    color:var(--medium-grey);
+}
+.btn-container{
+    color: var(--medium-grey);
+}
+#random-btn{
+    color : var(--light-blue);
+    border : 1px solid var(--light-blue);
+    border-radius: 8px;
+    padding:0.3rem;
+    text-transform: capitalize;
+    background-color: transparent;
+    margin-top: 1rem;
+    transition: all 0.5s linear;
+}
+#random-btn :hover{
+    background-color: var(--light-blue);
+    color: black;
+}
