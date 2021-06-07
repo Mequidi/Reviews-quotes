@@ -13,11 +13,11 @@
 }
 
 img{
-    width: auto;
-    height: auto;
+    width: 200px;
+    height: 200px;
     border:2px none var(--dark-blue);
     border-radius: 100%;
-    max-width: 220px;
+    /* max-width: 220px; */
 }
 body{
     font-family: var(--ff-1);
@@ -93,10 +93,22 @@ p{
     padding:0.3rem;
     text-transform: capitalize;
     background-color: transparent;
-    margin-top: 1rem;
+    /* margin-top: 0.5rem; */
     transition: all 0.5s linear;
 }
-#random-btn :hover{
+#random-btn:hover{
     background-color: var(--light-blue);
     color: black;
+}
+.btn-container button{
+    padding: 0.5rem;
+    border: none;
+    color: var(--medium-grey);
+    background-color: transparent;
+    transition: all 0.5s linear;
+    font-size: 20px;
+}
+.btn-container button:hover{
+    color: var(--light-blue);
+    
 }
