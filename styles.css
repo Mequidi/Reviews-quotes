@@ -11,13 +11,22 @@
     --medium-grey : #617D98;
     --spacing : 3.5px;
 }
+.img-container{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+}
 
 img{
-    width: 200px;
-    height: 200px;
-    border:2px none var(--dark-blue);
-    border-radius: 100%;
-    /* max-width: 220px; */
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    border: 3px solid var(--light-blue);
 }
 body{
     font-family: var(--ff-1);
