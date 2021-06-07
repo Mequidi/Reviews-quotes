@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+:root{
+    --ff-1 : "Open Sans", sans-serif;
+    --ff-2 : "Roboto", sans-serif;
+    --dark-blue : #102A42;
+    --light-blue : #49A6E9;
+    --light-grey : #f1f5f8;
+    --medium-grey : #617D98;
+    --spacing : 3.5px;
+}
+
+img{
+    width: auto;
+    height: auto;
+    border:2px none var(--dark-blue);
+    border-radius: 100%;
+    max-width: 220px;
+}
+body{
+    font-family: var(--ff-1);
+    color: var(--light-blue);
+    background-color: var(--light-grey);
+    margin: 0;
+}
+main{
+    display: grid;
+    min-height: 100vh;
+    justify-content: center;
+    grid-template-columns: 620px;
+    align-content:center; 
+}
+.container{
+    text-align: center;
+    max-width: 80vw;
+    padding-bottom: 2rem;
+}
+.title{
+    text-transform: capitalize;
+    font-size: 25px;
+    margin-bottom: 4rem;
+    margin-top: 1.5rem;
+}
+h2{
+    letter-spacing: var(--spacing);
+    color: var(--dark-blue);
+    font-family: var(--ff-2);
+    margin:0;
+    margin-bottom: 0.875rem;
+    font-weight: bold;
+}
+.underline{
+    height: .25rem;
+    background-color: var(--light-blue);
+    max-width: 5rem;
+    margin: auto; 
+    
+}
+.review{
+    padding: 1.5rem;
+    background-color: white;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+}
+.name{
+    font-size:medium;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+p{
+    margin: 0;
+}
+.job{
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    margin-top:2px;
+    margin-bottom: 5px;
+}
+.
