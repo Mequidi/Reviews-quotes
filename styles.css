@@ -56,7 +56,6 @@ img{
 }
 .semi-colon{
     font-size: 15px;
-
     position: absolute;
     background-color: var(--light-blue);
     top: 0;
@@ -66,9 +65,14 @@ img{
     display: block;
     border-radius: 50%;
     z-index: 2;
-    color:white;
-    margin:auto
+    color:white; 
 }
+#icon-colon
+{
+    position: relative;
+    bottom: -0.6rem;
+}
+
 .back-circle{
     
         content: "";
